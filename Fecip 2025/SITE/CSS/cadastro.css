@@ -95,7 +95,7 @@ body{
 } #email input{
     width: 100%;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 15px;
     background: 005ad5;
     color: #000000de;
@@ -111,7 +111,7 @@ body{
 } #senha input{
     width: 100%;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 15px;
     background: 005ad5;
     color: #000000de;
@@ -141,5 +141,7 @@ body{
     color: #242424;
     background: #FFD700;
     cursor: pointer;
+    padding-bottom: 5px;
+    
 }
 
