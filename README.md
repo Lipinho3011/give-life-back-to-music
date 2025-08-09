@@ -10,9 +10,9 @@ Feito com muito carinho por 7 alunos da turma 1341 - 3° ano do Ensino Médio T�
 
 ## Integrantes
 * Alessandra Paes - Designer / Patroa
-* Luis Santos - Designer
+* Luis Carlos - Designer
 * Cauã Reiner - Dev Front-End
 * Felipe Laltuf - Dev Front-End
 * Filipe Monteiro - Dev Front-End
 * Dandara Corrêa - SGBD
-* Matheus Henrique - SGBD
+* Mateus Henrique - SGBD

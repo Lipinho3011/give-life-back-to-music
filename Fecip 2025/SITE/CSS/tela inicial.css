@@ -1,0 +1,309 @@
+
+body{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 719px) {
+    
+
+/*             HEADER             */
+
+header{
+    width: 100%;
+    height: 5%;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatinerheader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+/*MAIN*/
+
+main{
+    width: 100%;
+    height: 35%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containermain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informacoes{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+
+/*          NAV             */
+
+nav{
+    width: 100%;
+    height: 55%;
+    box-sizing: border-box;
+}
+
+.containernav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containernav2{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.navbar{
+    width: 300px;
+    height: 450px;
+    padding: 0;
+    gap: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.blocomusica{
+    width: 200px;
+    min-height: 200px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 5%;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerfoot{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 720px){
+
+body{
+
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+header{
+
+    width: 100%;
+    height: 7%;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 2px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containerheader{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho{
+    width: 150px;
+    height: auto;
+}
+
+
+/*     MAIN     */
+
+main{
+
+    width: 100%;
+    height: 45%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containermain{
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.informacoes{
+
+    width: 550px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+
+}
+
+
+
+/*         NAV       */
+
+nav{
+    width: 100%;
+    height: 35%;
+    box-sizing: border-box;
+}
+
+.containernav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containernav2{
+
+    width: 90%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 30px;
+
+}
+
+.navbar{
+
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+
+}
+
+.blocomusica{
+    min-width: 180px;
+    height: 180px;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 25px;
+
+}
+
+
+
+/*     FOOTER     */
+
+footer{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(36, 36, 36, 0.384);
+}
+    
+.containerfoot{
+    width: 90%;
+}
+
+.rodape > a > input{
+
+    border: 1px solid black;
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
+    margin-left: 30px;
+
+}
+
+}
