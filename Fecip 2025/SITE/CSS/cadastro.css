@@ -39,8 +39,8 @@ body{
     
 } #img1 > img{
     display: block;
-    width: 35vw;
-    height: 70vh;
+    width: 500px;
+    height: 500px;
 }
 
 /*Lado do cadastro (Direito)*/
