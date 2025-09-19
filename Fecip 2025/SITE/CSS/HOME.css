@@ -1,0 +1,208 @@
+.bloco__msc {
+    position: relative;
+}
+.scroll-btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.scroll-btn {
+    background: var(--secondBackground);
+    border: 1px solid var(--shadowColor);
+    color: var(--shadowColor);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    transition: background 0.2s, opacity 0.2s;
+    position: static;
+}
+.scroll-btn:hover {
+    background: var(--shadowColor);
+    color: var(--secondBackground);
+    opacity: 1;
+}
+:root{
+    --background: #242424;
+    --colorTitle:  #fdd96d;
+    --colorSubtitle: #FFE7A0;
+    --textColor: #FFFFFF;
+    --shadowColor: #FFE7A0;
+    --secondBackground: #1f1f1f;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem 1rem 15rem;
+    border-bottom: 1px solid var(--textColor);
+    box-shadow: 0 3px 40px var(--shadowColor);
+    background-color: var(--secondBackground);
+    position: fixed;
+    z-index: 1000;
+
+}
+.nav__header{
+    width: 45%;
+    display: flex;
+    
+
+}
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.menu__item{
+    display: flex;
+    width: 100%;
+}
+.menu__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.25rem;
+
+}
+
+.menu__link > span{
+    font-size: 1.5rem;
+}
+
+
+/*           MAIN              */
+
+main{
+    padding: 12rem 15rem 2rem;
+}
+.main__row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.main__content1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.main__content2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+#title__main{
+    font-size: 8rem;
+    text-shadow: 3px 3px 5px var(--shadowColor);
+    display: block;
+    white-space: pre-line;
+}
+
+.title__main-word {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s cubic-bezier(0.4,0,0.2,1), transform 0.7s cubic-bezier(0.4,0,0.2,1);
+    margin-right: 0.5rem;
+}
+.title__main-word.visible {
+    opacity: 1;
+    transform: translateY(0);
+
+}
+#anime__main{
+    width: 80%;
+}
+
+.btn__music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    background-color: transparent;
+    border: 1px solid var(--textColor);
+    /*box-shadow: inset 0px -5px 15px #ffe7a08e;*/
+    color: var(--primary-color);
+    border-radius: 3.125rem;
+    padding: 1.25rem 2.5rem;
+    width: 40%;
+    transition: ease-in-out .3s;
+    cursor: pointer;
+}
+.btn__music:hover{
+    transform: scale(1.05);
+    transition: ease-in-out .3s;
+}
+.btn__music span, .btn__music i{
+    font-size: 1.25rem;
+    text-transform: uppercase;
+     color: var(--colorSubtitle);
+}
+
+
+
+
+/*           SECTION            */
+
+section{
+    padding: 12rem 15rem 2rem;
+}
+
+.section__content1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.bloco__msc{
+    margin: 0 0 4rem 0;
+    border: 1px solid var(--secondBackground);
+    border-radius: 25px;
+    box-sizing: border-box;
+    overflow-x: visible;
+}
+.card__list{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 20rem;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none; /* Firefox */
+}
+.card__list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.items__msc{
+    flex: 0 0 auto;
+    min-width: 20%;
+    align-items: flex-start;
+    border: 1px solid invisible;
+    border-radius: 25px;
+   cursor: pointer;
+    
+}
+.items__msc img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--shadowColor);
+    border-radius: 25px;
+    
+}
