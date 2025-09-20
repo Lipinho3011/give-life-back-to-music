@@ -39,8 +39,8 @@ body{
     
 } #img1 > img{
     display: block;
-    width: 35vw;
-    height: 70vh;
+    width: 500px;
+    height: 500px;
 }
 
 /*Lado do cadastro (Direito)*/
@@ -95,7 +95,7 @@ body{
 } #email input{
     width: 100%;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 15px;
     background: 005ad5;
     color: #000000de;
@@ -111,7 +111,7 @@ body{
 } #senha input{
     width: 100%;
     border: none;
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 15px;
     background: 005ad5;
     color: #000000de;
@@ -141,7 +141,84 @@ body{
     color: #242424;
     background: #FFD700;
     cursor: pointer;
-    padding-bottom: 5px;
-    
+    margin-left: 37%;
 }
 
+/* Fundo do modal */
+.modal {
+  display: none; /* escondido por padrão */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caixa do modal */
+.modal-content {
+  background: #242424;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 40px #00000080;
+  width: 350px;
+  text-align: center;
+  color: #FFD700;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Inputs do modal */
+.modal-content input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  text-align: center;
+  box-shadow: 0px 5px 20px #00000056;
+  margin-left: -2%;
+}
+
+/* Botão cadastrar */
+#cadastrar {
+  background: #FFD700;
+  color: #242424;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 1%;
+}
+
+/* Botão fechar */
+#fechar {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 25px;
+  cursor: pointer;
+  color: #FFD700;
+}
+
+/* Animação */
+@keyframes fadeIn {
+  from {opacity: 0; transform: scale(0.9);}
+  to {opacity: 1; transform: scale(1);}
+}
+.brilho {
+  position: fixed;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+  animation: piscar 4s linear forwards;
+  pointer-events: none; /* não atrapalha clique */
+  z-index: 9999;
+}
+
+@keyframes piscar {
+  0% { opacity: 0; transform: scale(0.5);}
+  50% { opacity: 1; transform: scale(1);}
+  100% { opacity: 0; transform: scale(0);}
+}
