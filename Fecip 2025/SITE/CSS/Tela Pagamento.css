@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+font-family: "Arial";
+gap: 16px;
+}
+.card{
+    background-color: white;
+    width: 186px;
+    height: 260px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+.card img{
+    width: 100%;
+    height: 130px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+.card h1{
+    font-size: 1.2rem;
+}
+.card h2{
+    font-size: .9rem;
+    color: #aaaa;
+}
+.botao {
+  display: inline-block;
+  background-color: #2192FF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.botao:hover {
+  background-color: #137de8;
+}
+
+
+ .checkout {
+      background: white;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 4px 4px 12px #aaa;
+      width: 320px;
+    }
+    .checkout h1 {
+      text-align: center;
+      margin-bottom: 16px;
+      font-size: 1.5rem;
+    }
+    .checkout label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    .checkout input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 4px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .btn-finalizar {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #2192FF;
+      border: none;
+      padding: 10px;
+      color: white;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .btn-finalizar:hover {
+      background-color: #137de8;
+    }
+    .mensagem {
+      display: none;
+      margin-top: 20px;
+      padding: 12px;
+      background: #d4edda;
+      color: #155724;
+      border-radius: 6px;
+      text-align: center;
+    }
